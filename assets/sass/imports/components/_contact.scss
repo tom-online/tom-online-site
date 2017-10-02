@@ -1,0 +1,21 @@
+.nf-form-cont{
+  input, textarea{
+    border: 1px solid black;
+    padding: 10px;
+    font-family: Futura;
+  }
+  input[type=button]{
+    background: black;
+    color: white;
+    font-size: 20px;
+
+    &:hover{
+      background: white;
+      color: black;
+      cursor: pointer;
+    }
+  }
+  .nf-form-fields-required, .nf-form-title{
+    display: none;
+  }
+}
